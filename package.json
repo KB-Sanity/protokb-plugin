@@ -1,0 +1,26 @@
+{
+  "name": "protokb-plugin",
+  "version": "1.0.0",
+  "description": "Proto KB plugin template",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KB-Sanity/protokb-plugin.git"
+  },
+  "author": "i7d3v3l0p3r@yandex.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KB-Sanity/protokb-plugin/issues"
+  },
+  "homepage": "https://github.com/KB-Sanity/protokb-plugin#readme",
+  "devDependencies": {
+    "@kb-sanity/proto-kb-types": "^0.1.0",
+    "@types/node": "^18.6.5",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.5"
+  }
+}
